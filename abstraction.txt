@@ -1,0 +1,26 @@
+
+//this is an abstraction class
+
+public class promotioninfo
+    {
+       
+
+        private int _oldsalary;
+        private double_rate=0.5;
+
+        public double oldsalary
+        {
+            get { return _oldsalary}
+            set { _oldsalary= value; }
+        }
+        private double rate
+        {
+            get { return _rate}
+            set { _rate= value; }
+        }
+        public double calculatecurrentsalary()
+        {
+            return _oldsalary * _rate
+        }
+
+    }
